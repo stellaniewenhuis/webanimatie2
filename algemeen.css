@@ -1389,35 +1389,35 @@ VOICE 1:
 /*"three"*/
 .p40.on span:nth-of-type(6) {
     opacity: 1;
-    transition-delay:1.4s;
+    transition-delay:1.3s;
 
 
 }
 /*"times:"*/
 .p40.on span:nth-of-type(7) {
     opacity: 1;
-    transition-delay:1.7s;
+    transition-delay:1.5s;
 
 
 }
 /*""within"*/
 .p40.on span:nth-of-type(8) {
     opacity: 1;
-    transition-delay:2.2s;
+    transition-delay:1.6s;
 
 
 }
 /*"cells"*/
 .p40.on span:nth-of-type(9) {
     opacity: 1;
-    transition-delay:2.4s;
+    transition-delay:1.7s;
 
 
 }
 /*"interlinked"*/
 .p40.on span:nth-of-type(10) {
     opacity: 1;
-    transition-delay:2.8s;
+    transition-delay:1.8s;
 
 
 }

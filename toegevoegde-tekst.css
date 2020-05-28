@@ -212,7 +212,7 @@ animation: grootScherm29s forwards;
 
 
 .sound12 {
-     animation:vullen 65s linear;
+     animation:vullen 50s linear;
 }
 
 @-webkit-keyframes vullen {
