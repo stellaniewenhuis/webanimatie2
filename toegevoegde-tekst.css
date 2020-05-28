@@ -1,0 +1,528 @@
+
+/*STIJLING TOEGEVOEGDE CAPTIONS*/
+/*styling tekst*/
+.geluid{
+    display: none;
+    position:absolute;
+    text-align: center;
+    width: 100%;
+    margin-top: 5em;
+}
+
+.geluid p {
+    width:100%;
+    text-align:center;
+    color:gray;
+    font-family: "Brenner Mono"; font-style: italic; font-weight: 400;
+    font-size:20px;
+/*    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;*/
+}
+
+/*styling SUDDEN SILENCE*/
+#geluid8 p {
+    font-family: "Brenner Mono"; font-style: normal;
+    font-size:30px;
+    color:white;
+    margin-top:-10em;
+/*    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;*/
+}
+
+/*styling*/
+/*sound0 tekst1: Threatening ...*/
+ .sound0 #geluid1 {
+    display: block;
+    animation-timing-function: ease-in-out;
+    animation: fadeInOpacity 3.5s forwards;
+}
+
+.sound0 #video-placeholder {
+    animation: floating 4s;
+}
+
+/*
+.sound0 #video-placeholder {
+    animation:float 1.2s forwards;
+}
+
+@keyframes achtergrond{
+    91%{ box-shadow:1px 1px 50px 20px red; }
+    100% { box-shadow:1px 1px 50px 20px blue; opacity:1;}
+}
+*/
+
+
+/*styling sound 1*/
+/*extra tekst2:Alarm beeps.. */
+.sound1 #geluid2 {
+    display: block;
+    animation: shake 1.2s forwards;
+}
+/*placeholder animatie*/
+.sound1 #video-placeholder {
+    animation:shake2 1.2s forwards;
+}
+
+/*styling sound2*/
+/*extra tekst3: Alarm noises continue...*/
+.sound2 #geluid3 {
+    display: block;
+    animation: fadeOut2 5s forwards;
+}
+
+/*animatie video-placeholder*/
+.sound2 #video-placeholder {
+    animation: achtergrond 3s ease-in-out;
+}
+
+
+/* styling sound3*/
+/*extra tekst4: Alarm noises intens...*/
+.sound3 #geluid4 {
+    display: block;
+    animation: fadeOut3 5s forwards;
+}
+
+/*styling sound 3*/
+.sound3 #video-placeholder{
+    animation: achtergrond3 4s ease-in-out;
+}
+
+/*styling geluid 5*/
+
+
+.sound5 #geluid5 {
+    display: block;
+    animation-timing-function: linear;
+    animation: fadeInOpacity2 3s forwards;
+}
+
+.sound5 #video-placeholder {
+    animation: shake3 3s ease-in-out;
+}
+
+/*styling geluid 6
+*/
+.sound7 #geluid6 {
+    display: block;
+    animation-timing-function: linear;
+    animation: fadeInOpacity3 2s forwards;
+}
+
+.sound7 #video-placeholder {
+animation: achtergrond4 4s ease-in-out;
+}
+
+.sound8 #increases p {
+    margin-top: 3em;
+
+}
+
+/*
+.sound13 {
+    animation:grootScherm 43s;
+}
+*/
+
+
+.sound9 #increases {
+    display: block;
+    animation-timing-function: linear;
+    animation: fadeInOpacity4 33s forwards;
+}
+
+
+.sound10 #video-placeholder{
+    animation: soundBackgroundChange 11s linear;
+}
+
+@-webkit-keyframes soundBackgroundChange {
+    91% {
+        box-shadow: 5px 5px 100px 40px red;
+    }
+    100% {
+        box-shadow: 1px 1px 50px 20px blue;
+    }
+}
+
+/*styling geluid 7*/
+.sound10 #geluid7 {
+    display: block;
+    animation: blinking 5s forwards;
+}
+
+@keyframes blinking {
+    10% {opacity: 1;}
+    20% {opacity: 0.1;}
+    30% {opacity: 1;}
+    40% {opacity: 0.1;}
+    50% {opacity: 1;}
+    60% {opacity: 0.1;}
+    70% {opacity: 1;}
+    80% {opacity: 0.1;}
+    90% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+
+/*styling geluid 8*/
+.sound11 #geluid8 {
+    display: block;
+    animation: fadeOut 2s forwards;
+    margin-top: 10em;
+
+}
+
+.sound12 #geluid9 {
+    display: block;
+    animation: fadeOut5 10s forwards;
+}
+
+.sound12 iframe{
+    width: 1200px;
+}
+
+/*
+.sound12 {
+animation: grootScherm29s forwards;
+}
+*/
+
+
+/*
+.sound12 #video-placeholder {
+    animation: blinking2 29s forwards;
+}
+*/
+
+
+
+/*
+.sound12 #video-placeholder{
+     animation:verkleinen 29s forwards;
+}
+
+  @keyframes verkleinen {
+  0%   {transform: scale(1);
+        opacity: 1;}
+  100% {transform: scale(1.4);
+        opacity: 1;}
+}
+*/
+
+
+
+.sound12 {
+     animation:vullen 65s linear;
+}
+
+@-webkit-keyframes vullen {
+    0% {box-shadow: inset 1px 1px 50px 20px grey;}
+    10% {box-shadow: inset 1px 1px 50px 40px grey;}
+    5%{box-shadow: inset 1px 1px 50px 50px grey;}
+    10%{box-shadow: inset 1px 1px 50px 60px grey;}
+    15%{box-shadow: inset 1px 1px 50px 70px grey;}
+    20% {box-shadow: inset 1px 1px 50px 80px grey;}
+    25%{box-shadow: inset 1px 1px 50px 90px grey;}
+    30% {box-shadow: inset 1px 1px 50px 100px grey;}
+    35%{box-shadow: inset 1px 1px 50px 105px grey;}
+    40% {box-shadow: inset 1px 1px 50px 110px grey;}
+    45%{box-shadow: inset 1px 1px 50px 120px grey;}
+    50% {box-shadow: inset 1px 1px 50px 130px grey;}
+    55%{box-shadow: inset 1px 1px 50px 140px darkred;}
+    60% {box-shadow: inset 1px 1px 50px 150px darkred;}
+    65%{box-shadow: inset 1px 1px 50px 200px darkred;}
+    70% {box-shadow: inset 1px 1px 50px 250px darkred;}
+    75%{box-shadow: inset 1px 1px 50px 300px darkred;}
+    80% {box-shadow: inset 1px 1px 50px 350px gray;}
+    85%{box-shadow: inset 1px 1px 50px 400px gray;}
+    90% {box-shadow: inset 1px 1px 50px 450px gray;}
+    95%{box-shadow: inset 1px 1px 50px 500px gray;}
+    100% {box-shadow: inset 1px 1px 50px 0px gray;
+    }
+}
+
+
+
+/*
+.sound12 #video-placeholder  {
+    box-shadow: 5px 5px 100px 40px blue;
+}
+*/
+
+/*ringing*/
+.sound13 #geluid10 {
+    display: block;
+    animation: fadeOut6 5s forwards;
+}
+
+.sound13 #video-placeholder {
+    display: block;
+    animation: shake4 1.2s forwards;
+}
+
+.sound14 #video-placeholder {
+    display: block;
+    animation: breder 5s forwards;
+}
+
+
+.sound15 #video-placeholder {
+    display: block;
+    animation: blinking3 2s forwards;
+}
+
+/* Animaties */
+
+@keyframes achtergrond{
+    20%{ box-shadow:1px 1px 50px 20px red; }
+    80% {box-shadow:1px 1px 50px 20px blue;}
+    100% { box-shadow:1px 1px 50px 20px blue; opacity:1;}
+
+}
+
+@keyframes achtergrond2{
+    70%{ box-shadow:1px 1px 50px 20px red; }
+    100% { box-shadow:1px 1px 50px 20px blue; opacity:1;}
+
+}
+
+@keyframes achtergrond3{
+    10%{ box-shadow:1px 1px 50px 20px red; }
+    20% { box-shadow:1px 1px 50px 20px blue; }
+    100% { box-shadow:1px 1px 50px 20px blue; opacity:1;}
+
+}
+
+@keyframes achtergrond4{
+    10%{ box-shadow:1px 1px 50px 20px red; }
+    20% { box-shadow:1px 1px 50px 20px blue; }
+    100% { box-shadow:1px 1px 50px 20px blue; opacity:1;}
+
+}
+@keyframes achtergrond5{
+    10%{ box-shadow:1px 1px 50px 20px red; }
+    20% { box-shadow:1px 1px 50px 20px blue; }
+    100% { box-shadow:1px 1px 50px 20px blue; opacity:1;}
+
+}
+
+
+
+/*animatie extra tekst shake*/
+ @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); opacity: 1; }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    99% { transform: translate(1px, -2px) rotate(-1deg); opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+/*animatie placeholder shake*/
+@keyframes shake2 {
+    0% { transform: translate(1px, 1px) rotate(0deg); opacity: 1; box-shadow: 1px 1px 50px 20px red;}
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    99% { transform: translate(1px, -2px) rotate(-1deg); opacity: 1; }
+    100% { opacity: 1;box-shadow: 1px 1px 50px 20px blue; }
+  }
+
+@keyframes shake3 {
+    0% { transform: translate(1px, 1px) rotate(0deg); opacity: 1; box-shadow: 1px 1px 50px 20px red;}
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    100% { opacity: 1;box-shadow: 1px 1px 50px 20px blue; }
+  }
+
+@keyframes shake4 {
+    0% { transform: translate(1px, 1px) rotate(0deg); opacity: 1; box-shadow: 1px 1px 50px 20px red;}
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    99% { transform: translate(1px, -2px) rotate(-1deg); opacity: 1; }
+    100% { opacity: 1;box-shadow: 1px 1px 50px 20px blue; }
+  }
+
+@keyframes shake5 {
+    0% { transform: translate(1px, 1px) rotate(0deg); opacity: 1; box-shadow: 1px 1px 50px 20px red;}
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    100% { opacity: 1;box-shadow: 1px 1px 50px 20px blue; }
+  }
+
+
+
+
+@keyframes blinking2 {
+    10% {opacity: 1;}
+    20% {opacity: 0.1;}
+    30% {opacity: 1;}
+    40% {opacity: 0.1;}
+    50% {opacity: 1;}
+    60% {opacity: 0.1;}
+    70% {opacity: 1;}
+    80% {opacity: 0.1;}
+    90% {opacity: 1;}
+    100% {opacity: 1;}
+}
+
+@keyframes blinking3 {
+    10% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+    99%{
+    opacity: 1;}
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes fadeInOpacity2 {
+    0% {
+        opacity: 0;
+    }
+    80%{
+    opacity: 1;}
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeInOpacity3 {
+    0% {
+        opacity: 0;
+    }
+    80%{
+    opacity: 1;}
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeInOpacity4 {
+    0% {
+        opacity: 0;
+    }
+    80%{
+    opacity: 0.7;}
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeInOpacity5 {
+    0% {
+        opacity: 0;
+    }
+    80%{
+    opacity: 0.2;}
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeInOpacity6 {
+    0% {
+        opacity: 0;
+    }
+    80%{
+    opacity: 0.2;}
+    100% {
+        opacity: 0;
+    }
+}
+
+
+
+@keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes fadeOut2 {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes fadeOut3 {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+@keyframes fadeOut4 {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes fadeOut5 {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes fadeOut6 {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+@keyframes fadeOut7 {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+
+
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 20px); }
+    to   { transform: translate(0, -0px); }
+}
+
+
+/*
+@keyframes zoom {
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(1.2,1.2);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+
+*/
+
+
+@keyframes grootScherm {
+  0%   {transform: scale(1);}
+  100% {transform: scale(0.7);}
+}
+
+
+
+

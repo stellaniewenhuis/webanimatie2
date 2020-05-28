@@ -1,0 +1,959 @@
+/*
+TWEEDE FRAGMENT
+*/
+
+/* **********************************************
+VOICE 4:
+********************************************** */
+
+/*"Constant"*/
+.p45.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+}
+/*"K."*/
+.p45.on span:nth-of-type(2) {
+    opacity: 1;
+    transition: 0s .4s;
+}
+
+/* **********************************************
+VOICE 4:
+********************************************** */
+
+/*"You"*/
+.p46.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+}
+/*"can"*/
+.p46.on span:nth-of-type(2) {
+    opacity: 1;
+    transition: 0s .4s;
+}
+/*"pick"*/
+.p46.on span:nth-of-type(3) {
+    opacity: 1;
+    transition: 0s .4s;
+}
+/*"up"*/
+.p46.on span:nth-of-type(4) {
+    opacity: 1;
+    transition: 0s .4s;
+}
+/*"your"*/
+.p46.on span:nth-of-type(5) {
+    opacity: 1;
+    transition: 0s .4s;
+}
+/*"bonus"*/
+.p46.on span:nth-of-type(6) {
+    opacity: 1;
+    transition: 0s .4s;
+}
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+/*"Thank"*/
+.p47.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+}
+/*"you"*/
+.p47.on span:nth-of-type(2) {
+    opacity: 1;
+    transition: 0s .4s;
+}
+/*"sir."*/
+.p47.on span:nth-of-type(3) {
+    opacity: 1;
+    transition: 0s .4s;
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+/*"Cells"*/
+.p48.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+
+}
+}
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+/*"Cells"*/
+.p49.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-size:15em;
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+
+.p50.on span {
+    opacity:1;
+}
+
+/*"Have"*/
+.p50.on span:first-of-type {
+    opacity: 1;
+    transition-delay:.4s;
+    font-size:22px;
+}
+/*"you"*/
+.p50.on span:nth-of-type(2) {
+    opacity: 1;
+    transition-delay:.5s;
+
+}
+/*"ever"*/
+.p50.on span:nth-of-type(3) {
+    opacity: 1;
+    transition-delay:.7s;
+}
+
+/*"been"*/
+.p50.on span:nth-of-type(4) {
+    opacity: 1;
+    transition-delay:1.1s;
+}
+
+/*"in"*/
+.p50.on span:nth-of-type(5) {
+    opacity: 1;
+    transition-delay:1.4s;
+}
+
+/*"an"*/
+.p50.on span:nth-of-type(6) {
+    opacity: 1;
+    transition-delay:1.7s;
+
+}
+
+/*"institution."*/
+.p50.on span:nth-of-type(7) {
+    opacity: 1;
+    transition-delay:2s;
+
+}
+
+/*"Cells"*/
+.p50.on span:nth-of-type(8) {
+    opacity: 1;
+    transition-delay:3s;
+}
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+/*"Cells"*/
+.p51.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+.p52.on span {
+    opacity:1;
+}
+
+/*"When"*/
+.p52.on span:first-of-type {
+    opacity: 1;
+    transition-delay:.4s;
+}
+
+/*"you're"*/
+.p52.on span:nth-of-type(2) {
+    opacity: 1;
+    transition-delay:.6s;
+}
+/*"not"*/
+.p52.on span:nth-of-type(3) {
+    opacity: 1;
+    transition-delay:.7s;
+}
+
+/*"performing"*/
+.p52.on span:nth-of-type(4) {
+    opacity: 1;
+    transition-delay:1.1s;
+}
+/*"your"*/
+.p52.on span:nth-of-type(5) {
+    opacity: 1;
+    transition-delay:1.4s;
+}
+/*"duties,"*/
+.p52.on span:nth-of-type(6) {
+    opacity: 1;
+    transition-delay:1.7s;
+}
+/*"do"*/
+p52.on span:nth-of-type(7) {
+    opacity: 1;
+    transition-delay:2s;
+}
+/*"they"*/
+.p52.on span:nth-of-type(8) {
+    opacity: 1;
+    transition-delay:3s;
+}
+/*"keep"*/
+.p52.on span:nth-of-type(9) {
+    opacity: 1;
+    transition-delay:3.2s;
+}
+/*"you"*/
+.p51.on span:nth-of-type(10) {
+    opacity: 1;
+    transition-delay:3.7s;
+}
+/*"in"*/
+.p52.on span:nth-of-type(11) {
+    opacity: 1;
+    transition-delay:4s;
+}
+/*"a"*/
+.p52.on span:nth-of-type(12) {
+    opacity: 1;
+    transition-delay:4.2s;
+}
+/*"little"*/
+.p52.on span:nth-of-type(13) {
+    opacity: 1;
+    transition-delay:4.4s
+}
+/*"box?"*/
+.p52.on span:nth-of-type(14) {
+    opacity: 1;
+    transition-delay:4.8s;
+}
+/*"Cells."*/
+.p52.on span:nth-of-type(15) {
+    opacity: 1;
+    transition-delay:5s;
+}
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+/*"Cells"*/
+.p53.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+.p54 span {
+    opacity:0;
+}
+
+/*"Interlinked"*/
+.p54.on span:first-of-type {
+    opacity: 1;
+    transition-delay:
+
+
+}
+/*"What's"*/
+.p54.on span:nth-of-type(2) {
+    opacity: 1;
+    transition-delay:
+
+}
+/*"it"*/
+.p54.on span:nth-of-type(3) {
+    opacity: 1;
+    transition-delay:
+
+}
+/*"like"*/
+.p54.on span:nth-of-type(4) {
+    opacity: 1;
+    transition-delay:
+
+}
+/*"to"*/
+.p54.on span:nth-of-type(5) {
+    opacity: 1;
+    transition-delay:
+
+}
+/*"hold"*/
+.p54.on span:nth-of-type(6) {
+    opacity: 1;
+    transition-delay:
+
+}
+/*"the"*/
+.p54.on span:nth-of-type(7) {
+    opacity: 1;
+    transition-delay:
+
+}
+/*"hand"*/
+.p54.on span:nth-of-type(8) {
+    opacity: 1;
+    transition-delay:
+
+}
+/*"of"*/
+.p54.on span:nth-of-type(9) {
+    opacity: 1;
+    transition-delay:
+
+}
+/*"someone"*/
+.p54.on span:nth-of-type(10) {
+    opacity: 1;
+    transition-delay:
+
+}
+/*"you"*/
+.p54.on span:nth-of-type(11) {
+    opacity: 1;
+    transition-delay:
+
+}
+/*"love?"*/
+.p54.on span:nth-of-type(12) {
+    opacity: 1;
+    transition-delay:
+
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+/*"Interlinked"*/
+.p55.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+}
+
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+/*"Interlinked"*/
+.p56.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+.p57 span {
+    opacity:0;
+}
+
+/*"Within"*/
+.p57.on span:first-of-type {
+    opacity: 1;
+    transition-delay:
+}
+/*"cells"*/
+.p57.on span:nth-of-type(2) {
+    opacity: 1;
+    transition-delay:
+
+}
+/*"interlinked"*/
+.p57.on span:nth-of-type(3) {
+    opacity: 1;
+    transition-delay:
+
+}
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+/*"Within"*/
+.p58.on span:first-of-type {
+    opacity: 1;
+    transition-delay:
+}
+/*"cells"*/
+.p58.on span:nth-of-type(2) {
+    opacity: 1;
+    transition-delay:
+
+}
+/*"interlinked"*/
+.p58.on span:nth-of-type(3) {
+    opacity: 1;
+    transition-delay:
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+/*"Dreadfully"*/
+.p59.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+}
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+/*"Dreadfully"*/
+.p60.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+.p61 span {
+    opacity:0;
+}
+
+/*"What's"*/
+.p61.on span:first-of-type {
+    opacity: 1;
+    transition-delay: 0s;
+
+}
+/*"it"*/
+.p61.on span:nth-of-type(2) {
+    opacity: 1;
+    transition-delay:
+
+}
+/*"like"*/
+.p61.on span:nth-of-type(3) {
+    opacity: 1;
+    transition-delay:
+}
+/*"to"*/
+.p61.on span:nth-of-type(4) {
+    opacity: 1;
+    transition-delay:
+}
+/*"be"*/
+.p61.on span:nth-of-type(5) {
+    opacity: 1;
+    transition-delay:
+}
+/*"filled"*/
+.p61.on span:nth-of-type(6) {
+    opacity: 1;
+    transition-delay:
+}
+/*"with"*/
+.p61.on span:nth-of-type(7) {
+    opacity: 1;
+    transition-delay:
+
+}
+/*"dread?"*/
+.p61.on span:nth-of-type(8) {
+    opacity: 1;
+    transition-delay:
+
+}
+/*"Dreadfully"*/
+.p61.on span:nth-of-type(9) {
+    opacity: 1;
+    transition-delay:
+
+}
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+/*"Dreadfully"*/
+.p62.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+.p63 span {
+    opacity:0;
+}
+
+/*"Do"*/
+.p63.on span:first-of-type {
+    opacity: 1;
+    transition-delay: 0s;
+}
+/*"you"*/
+.p63.on span:nth-of-type(2) {
+    opacity: 1;
+    transition-delay: 0s;
+}
+/*"like"*/
+.p63.on span:nth-of-type(3) {
+    opacity: 1;
+    transition-delay: 0s;
+}
+/*"being"*/
+.p63.on span:nth-of-type(4) {
+    opacity: 1;
+    transition-delay: 0s;
+}
+/*"seperated"*/
+.p63.on span:nth-of-type(5) {
+    opacity: 1;
+    transition-delay: 0s;
+}
+/*"from"*/
+.p63.on span:nth-of-type(6) {
+    opacity: 1;
+    transition-delay: 0s;
+
+}
+/*"other"*/
+.p63.on span:nth-of-type(7) {
+    opacity: 1;
+    transition-delay: 0s;
+
+}
+/*"people?"*/
+.p63.on span:nth-of-type(8) {
+    opacity: 1;
+    transition-delay: 0s;
+
+}
+/*"Distinct"*/
+.p63.on span:nth-of-type(9) {
+    opacity: 1;
+    transition-delay: 0s;
+
+}
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+/*"Distinct"*/
+.p64.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+.p65 span {
+    opacity:0;
+}
+
+/*"Dreadfully"*/
+.p65.on span:first-of-type {
+    opacity: 1;
+    transition-delay: 0s;
+}
+/*"distinct"*/
+.p65.on span:nth-of-type(2) {
+    opacity: 1;
+    transition-delay: 0s;
+
+}
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+/*"Dreadfully"*/
+.p66.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+}
+/*"distinct"*/
+.p66.on span:nth-of-type(2) {
+    opacity: 1;
+    transition: 0s .4s;
+    margin-right: -.25em;
+
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+/*"Dark"*/
+.p67.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+}
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+/*"Dark"*/
+.p68.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+/*"Within"*/
+.p69.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+}
+/*"cells"*/
+.p69.on span:nth-of-type(2) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+/*"interlinked"*/
+.p69.on span:nth-of-type(3) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+/*"Within"*/
+.p70.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+}
+/*"cells"*/
+.p70.on span:nth-of-type(2) {
+    opacity: 1;
+    transition: 0s .4s;
+
+}
+/*"interlinked"*/
+.p70.on span:nth-of-type(3) {
+    opacity: 1;
+    transition: 0s .4s;
+
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+/*"Withing"*/
+.p71.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+}
+/*"one"*/
+.p71.on span:nth-of-type(2) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+/*"stem"*/
+.p71.on span:nth-of-type(3) {
+    opacity: 1;
+    transition: 0s .4s;
+
+}
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+/*"Withing"*/
+.p72.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+
+}
+/*"one"*/
+.p72.on span:nth-of-type(2) {
+    opacity: 1;
+    transition: 0s .4s;
+
+}
+/*"stem"*/
+.p72.on span:nth-of-type(3) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+/*"And"*/
+.p73.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+
+}
+/*"dreadfully"*/
+.p73.on span:nth-of-type(2) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+/*"distinct"*/
+.p73.on span:nth-of-type(3) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+/*"And"*/
+.p74.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+
+}
+/*"dreadfully"*/
+.p74.on span:nth-of-type(2) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+/*"distinct"*/
+.p74.on span:nth-of-type(3) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+/*"Against"*/
+.p75.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+
+}
+/*"the"*/
+.p75.on span:nth-of-type(2) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+/*"dark"*/
+.p75.on span:nth-of-type(3) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+/*"Against"*/
+.p76.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+
+}
+/*"the"*/
+.p76.on span:nth-of-type(2) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+/*"dark"*/
+.p76.on span:nth-of-type(3) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+/*"A"*/
+.p77.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+}
+/*"tall"*/
+.p77.on span:nth-of-type(2) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+/*"white"*/
+.p77.on span:nth-of-type(3) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+/*"fountain"*/
+.p77.on span:nth-of-type(3) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+/*"played"*/
+.p77.on span:nth-of-type(3) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+/*"A"*/
+.p78.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+
+}
+/*"tall"*/
+.p78.on span:nth-of-type(2) {
+    opacity: 1;
+    transition: 0s .4s;
+font-size:15px;
+
+}
+/*"white"*/
+.p78.on span:nth-of-type(3) {
+    opacity: 1;
+    transition: 0s .4s;
+font-size:15px;
+}
+/*"fountain"*/
+.p78.on span:nth-of-type(3) {
+    opacity: 1;
+    transition: 0s .4s;
+font-size:15px;
+
+}
+/*"played"*/
+.p78.on span:nth-of-type(3) {
+    opacity: 1;
+    transition: 0s .4s;
+    font-size:15px;
+
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+/*"You're"*/
+.p79.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+
+
+}
+/*"not"*/
+.p79.on span:nth-of-type(2) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+/*"even"*/
+.p79.on span:nth-of-type(3) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+/*"close"*/
+.p79.on span:nth-of-type(4) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+/*"to"*/
+.p79.on span:nth-of-type(5) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+/*"baseline"*/
+.p79.on span:nth-of-type(6) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}

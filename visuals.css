@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    box-shadow: inset 1px 1px 50px 20px black;
+    padding-top: 150px;
+    overflow:hidden;
+
+}
+
+/*
+.sound0 #video-placeholder {
+animation-name: floating;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 40px); }
+    to   { transform: translate(0, -0px); }
+}
+
+*/
+
+/*
+.sound12 iframe{
+    width: 1000px;
+    height: 500px;
+}
+
+.sound13 iframe {
+    width:950;
+    height:560;
+}
+*/
+
+
+#video-placeholder {
+    display: block;
+/*    margin-top:5em;
+/*    padding-top:5em;*/
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 50px 20px blue;
+    transform: scale(30%);
+    transition: 2s;
+/*    width:73%;*/
+
+}
+p {
+    width:100%;
+    text-align:center;
+}
+
+#closed-captions p {
+    opacity: 0;
+    transition: .05s;
+    position: absolute;
+    margin-top:2em;
+}
+#closed-captions .on {
+    opacity: 1;
+}
+#closed-captions .off {
+    transition: .2s;
+    opacity: 0;
+}
+
+/*
+.sound1 #video-placeholder{
+    box-shadow: 10px 10px 200px 80px blue;
+}
+*/
+
+
+
+
+/*
+@-webkit-keyframes change {
+    80% {
+        box-shadow: 200px 200px 500px 80px red;
+    }
+    100% {
+        box-shadow: 200px 200px 500px 80px blue;
+    }
+}
+
+
+*/
+
+
+
+
+
+

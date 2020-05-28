@@ -1,0 +1,1546 @@
+/* **********************************************
+Basic mechanics
+Hide all paragraphs by default
+Show them when they receive the class 'on'
+Hide them when they receive the class 'off'
+Feel free to adjust the defaults to your needs.
+********************************************** */
+
+
+/*voice 1 algemene instellingen*/
+.voice1  {
+    color:white;
+    font-family: "Brenner Mono"; font-style: italic; font-weight: 400;
+    font-size:20px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+/*    text-align: left;*/
+/*    margin-top: 3em;*/
+}
+
+/*voice 2 algemene instellingen*/
+.voice2 {
+    color:white;
+    font-family: "Brenner Mono"; font-style: Normal; font-weight: 300;
+    font-size:20px;
+
+/*    text-align: right;*/
+/*    margin-top: 5em;*/
+}
+
+/*voice 3 algemene instellingen*/
+.voice3 {
+    color:white;
+    font-family: "Brenner Mono Light"; font-style: normal; font-weight: 600;
+    font-size:18px;
+    text-align: center;
+}
+
+/*voice 4 algemene instellingen*/
+.voice4 {
+    color:white;
+    font-family: "Brenner Mono"; font-style: Normal; font-weight: 200;
+    font-size:26px;
+    text-align: center;
+}
+
+
+/* **********************************************
+The first paragraph, with extended timing for
+    all siblings. Basically what it does is that
+    it shows the text after a delay, which
+    corresponds with the time that the word is
+    spoken.
+You probably want to change the styling.
+*****************************************s***** */
+.p0 span {
+    opacity: 0;
+}
+
+/* **********************************************
+VOICE 1: Machine's voice
+********************************************** */
+
+/*"Officier"*/
+.p0.on span:first-of-type {
+    opacity: 1;
+}
+/*"K"*/
+.p0.on span:nth-of-type(2) {
+    opacity: 1;
+    transition-delay: .4s;
+    font-weight: 800;
+    color:blue;
+    font-size:22px;
+}
+
+/*"D"*/
+.p0.on span:nth-of-type(3) {
+    opacity: 1;
+    transition-delay: .5s;
+    color:blue;
+    font-weight: 800;
+    font-size:22px;
+}
+/*"6"*/
+.p0.on span:nth-of-type(4) {
+    opacity: 1;
+    transition-delay: .7s;
+    color:blue;
+    font-weight: 800;
+    font-size:22px;
+}
+/*"-"*/
+.p0.on span:nth-of-type(5) {
+    opacity: 1;
+    transition-delay: 1.1s;
+    color:blue;
+    font-weight: 800;
+    font-size:22px;
+}
+/*"3"*/
+.p0.on span:nth-of-type(6) {
+    opacity: 1;
+    transition-delay: 1.4s;
+    color:blue;
+    font-weight: 800;
+    font-size:22px;
+}
+/*"."*/
+.p0.on span:nth-of-type(7) {
+    opacity: 1;
+    transition-delay: 1.7s;
+    color:blue;
+    font-weight: 800;
+    font-size:22px;
+}
+/*"7."*/
+.p0.on span:nth-of-type(8) {
+    opacity: 1;
+    transition-delay: 2s;
+    color:blue;
+    font-weight:800;
+    font-size:22px;
+}
+/*"Let's"*/
+.p0.on span:nth-of-type(9) {
+    opacity: 1;
+    transition-delay: 3s;
+
+}
+/*"begin."*/
+.p0.on span:nth-of-type(10) {
+    opacity: 1;
+    transition-delay: 3.2s;
+
+}
+/*"Ready" hIER KOMT EEN SCALE!???????*/
+.p0.on span:nth-of-type(11) {
+    opacity: 1;
+    transition-delay: 3.7s;
+    transform: scale(2);
+    display: inline-block;
+    color:blue;
+    padding-left:1em;
+    font-weight: 800;
+}
+
+
+/* **********************************************
+VOICE 2: K's voice
+********************************************** */
+
+.p1 span {
+}
+
+/*"Yes"*/
+.p1.on span:first-of-type {
+}
+/*"Sir"*/
+.p1.on span:nth-of-type(2) {
+}
+
+/* **********************************************
+VOICE 1: Machine's voice
+********************************************** */
+
+.p2 span {
+    opacity: 0;
+}
+
+/*"Recite"*/
+.p2.on span:first-of-type {
+    opacity: 1;
+}
+
+/*"your"*/
+.p2.on span:nth-of-type(2) {
+    opacity: 1;
+    transition-delay: .4s;
+    font-weight: 200;
+
+}
+/*"baseline"*/
+.p2.on span:nth-of-type(3) {
+    opacity: 1;
+    transition-delay: .5s;
+
+}
+
+/* P3
+
+/*"And"*/
+.p3.on span:first-of-type {
+/*    opacity: 1;*/
+/*    transition: 0s;*/
+    font-weight:600;
+    transition-delay:.2s;
+
+}
+/*"blood-black"*/
+.p3.on span:nth-of-type(2) {
+/*    opacity: 1;*/
+/*    transition: 0s .2s;*/
+    font-weight:600;
+    transition-delay:.4s;
+
+}
+/*"nothingness"*/
+.p3.on span:nth-of-type(3) {
+/*    opacity: 1;*/
+/*    transition: 0s .3s;*/
+    font-weight:600;
+    transition-delay:.6s;
+
+}
+/*"began"*/
+.p3.on span:nth-of-type(4) {
+/*    opacity: 1;*/
+/*    transition: 0s .4s;*/
+    font-weight:600;
+    transition-delay:1s;
+
+}
+/*"to"*/
+.p3.on span:nth-of-type(5) {
+/*    opacity: 1;*/
+/*    transition: 0s 1.1s;*/
+    font-weight:600;
+    transition-delay:1.2s;
+
+}
+/*"spin"*/
+.p3.on span:nth-of-type(6) {
+/*    opacity: 1;*/
+/*    transition: 0s 1.4s;*/
+    font-weight:600;
+    transition-delay:1.7s;
+}
+
+
+/* **********************************************
+VOICE 2: K's voice
+********************************************** */
+
+/*"A"*/
+.p4.on span:first-of-type {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:.2s;
+
+}
+/*"system"*/
+.p4.on span:nth-of-type(2) {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:.4s;
+
+}
+/*"of"*/
+.p4.on span:nth-of-type(3) {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:.6s;
+
+}
+/*"cells"*/
+.p4.on span:nth-of-type(4) {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:1s;
+
+}
+/*"interlinked"*/
+.p4.on span:nth-of-type(5) {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:1.4s;
+
+}
+/*"within"*/
+.p4.on span:nth-of-type(6) {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:2s;
+
+}
+
+/*"cells"*/
+.p4.on span:nth-of-type(7) {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:2.4s;
+
+}
+
+/* **********************************************
+VOICE 2: K's voice
+********************************************** */
+
+/*"interlinked"*/
+.p5.on span:first-of-type {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:.2s;
+
+}
+/*"within"*/
+.p5.on span:nth-of-type(2) {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:.4s;
+}
+/*"cells,"*/
+.p5.on span:nth-of-type(3) {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:.6s;
+
+}
+/*"interlinked"*/
+.p5.on span:nth-of-type(4) {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:1s;
+
+}
+/*"within"*/
+.p5.on span:nth-of-type(5) {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:1.4s;
+
+}
+/*"one"*/
+.p5.on span:nth-of-type(6) {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:2s;
+
+}
+
+/*"stem"*/
+.p5.on span:nth-of-type(7) {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:2.4s;
+
+}
+
+/* **********************************************
+VOICE 3: Cops voice
+********************************************** */
+
+/*"Fuck"*/
+.p6.on span:first-of-type {
+    font-style:italic;
+}
+/*"off,"*/
+.p6.on span:nth-of-type(2) {
+font-style:italic;
+}
+/*"skin-job!"*/
+.p6.on span:nth-of-type(3) {
+    font-style:italic;
+}
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+/*"And"*/
+.p7.on span:first-of-type {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:.2s;
+}
+
+/*"dreadfully"*/
+.p7.on span:nth-of-type(2) {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:.4s;
+}
+/*"distinct"*/
+.p7.on span:nth-of-type(3) {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:.6s;
+}
+/*"against"*/
+.p7.on span:nth-of-type(4) {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:1s;
+}
+/*"the"*/
+.p7.on span:nth-of-type(5) {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:1.4s;
+}
+/*"dark"*/
+.p7.on span:nth-of-type(6) {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:2s;
+}
+/*"a"*/
+.p7.on span:nth-of-type(7) {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:2.4s;
+}
+/*"tall"*/
+.p7.on span:nth-of-type(8) {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:3s;
+}
+/*"white"*/
+.p7.on span:nth-of-type(9) {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:3.4s;
+}
+/*"fountain"*/
+.p7.on span:nth-of-type(10) {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:4s;
+}
+/*"played..."*/
+.p7.on span:nth-of-type(11) {
+    opacity: 1;
+   font-weight:600;
+    transition-delay:4s;
+}
+
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+/*"Cells."*/
+
+.p8 span {
+    opacity: 0;
+}
+.p8.on span:first-of-type {
+    opacity: 1;
+}
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+/*"Cells."*/
+.p9.on span:first-of-type {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:.2s;
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+.p10 span {
+    opacity:0;
+}
+
+/*"Have"*/
+.p10.on span:first-of-type {
+    opacity: 1;
+}
+
+/*"you"*/
+.p10.on span:nth-of-type(2) {
+    opacity: 1;
+    transition-delay: .4s;
+}
+
+/*"ever"*/
+.p10.on span:nth-of-type(3) {
+    opacity: 1;
+    transition-delay: .5s;
+
+}
+
+/*"been"*/
+.p10.on span:nth-of-type(4) {
+    opacity: 1;
+    transition-delay: .7s;
+}
+
+/*"in"*/
+.p10.on span:nth-of-type(5) {
+    opacity: 1;
+    transition-delay: 1.1s;
+}
+
+/*"an"*/
+.p10.on span:nth-of-type(6) {
+    opacity: 1;
+    transition-delay: 1.4s;
+}
+
+/*"institution?"*/
+.p10.on span:nth-of-type(7) {
+    opacity: 1;
+    transition-delay: 1.7s;
+
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+.p11 span {
+    opacity:0;
+}
+/*"Cells."*/
+.p11.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+}
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+/*"Cells."*/
+.p12.on span:first-of-type {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:.2s;
+
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+
+.p13 span {
+    opacity: 0;
+}
+
+/*"Do"*/
+.p13.on span:first-of-type {
+    opacity: 1;
+
+
+}
+/*"they"*/
+.p13.on span:nth-of-type(2) {
+    opacity: 1;
+    transition-delay: .4s;
+
+}
+/*"keep"*/
+.p13.on span:nth-of-type(3) {
+    opacity: 1;
+    transition-delay: .5s;
+
+
+}
+/*"you"*/
+.p13.on span:nth-of-type(4) {
+    opacity: 1;
+    transition-delay: .7s;
+
+
+}
+/*"in"*/
+.p13.on span:nth-of-type(5) {
+    opacity: 1;
+    transition-delay: 1.1s;
+
+
+}
+/*"a"*/
+.p13.on span:nth-of-type(6) {
+    opacity: 1;
+    transition-delay: 1.4s;
+
+
+}
+/*"cell?"*/
+.p13.on span:nth-of-type(7) {
+    opacity: 1;
+    transition-delay: 1.7s;
+
+
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+
+/*"Cells."*/
+.p14.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+}
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+/*"Cells."*/
+.p15.on span:first-of-type {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:.2s;
+
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+.p16 span {
+    opacity: 0;
+}
+
+/*"When"*/
+.p16.on span:first-of-type {
+    opacity: 1;
+
+}
+/*"you're"*/
+.p16.on span:nth-of-type(2) {
+    opacity: 1;
+    transition-delay:.4s;
+
+}
+/*"not"*/
+.p16.on span:nth-of-type(3) {
+    opacity: 1;
+    transition-delay:.7s;
+
+}
+/*"performing"*/
+.p16.on span:nth-of-type(4) {
+    opacity: 1;
+    transition-delay:1.1s;
+
+}
+/*"your"*/
+.p16.on span:nth-of-type(5) {
+    opacity: 1;
+    transition-delay:1.4s;
+
+}
+/*"duties,"*/
+.p16.on span:nth-of-type(6) {
+    opacity: 1;
+    transition-delay:1.7s;
+
+}
+/*"do"*/
+.p16.on span:nth-of-type(7) {
+    opacity: 1;
+    transition-delay:2.2s;
+
+}
+/*"they"*/
+.p16.on span:nth-of-type(8) {
+    opacity: 1;
+    transition-delay:2.4s;
+
+}
+/*"keep"*/
+.p16.on span:nth-of-type(9) {
+    opacity: 1;
+    transition-delay:2.6s;
+
+}
+/*"you"*/
+.p16.on span:nth-of-type(10) {
+    opacity: 1;
+    transition-delay:2.8s;
+
+}
+/*"in"*/
+.p16.on span:nth-of-type(11) {
+    opacity: 1;
+    transition-delay:3s;
+
+}
+/*"a"*/
+.p16.on span:nth-of-type(12) {
+    opacity: 1;
+    transition-delay:3.4s;
+
+}
+/*"little"*/
+.p16.on span:nth-of-type(13) {
+    opacity: 1;
+    transition-delay:4s;
+
+}
+/*"box?"*/
+.p16.on span:nth-of-type(14) {
+    opacity: 1;
+    transition-delay:4.4s;
+
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+/*"Cells."*/
+.p17.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+}
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+/*"Cells."*/
+.p18.on span:first-of-type {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:.2s;
+
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+/*"Interlinked."*/
+.p19.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+}
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+/*"Interlinked."*/
+.p20.on span:first-of-type {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:.2s;
+
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+/*"What's"*/
+.p21.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+}
+/*"it"*/
+.p21.on span:nth-of-type(2) {
+    opacity: 1;
+    transition: 0s .4s;
+
+}
+/*"like"*/
+.p21.on span:nth-of-type(3) {
+    opacity: 1;
+    transition: 0s .4s;
+
+}
+/*"to"*/
+.p21.on span:nth-of-type(4) {
+    opacity: 1;
+    transition: 0s .4s;
+
+}
+/*"hold"*/
+.p21.on span:nth-of-type(5) {
+    opacity: 1;
+    transition: 0s .4s;
+
+}
+/*"the"*/
+.p21.on span:nth-of-type(6) {
+    opacity: 1;
+    transition: 0s .4s;
+
+}
+/*"hand"*/
+.p21.on span:nth-of-type(7) {
+    opacity: 1;
+    transition: 0s .4s;
+
+}
+/*"of"*/
+.p21.on span:nth-of-type(8) {
+    opacity: 1;
+    transition: 0s .4s;
+
+}
+/*"someone"*/
+.p21.on span:nth-of-type(9) {
+    opacity: 1;
+    transition: 0s .4s;
+
+}
+/*"you"*/
+.p21.on span:nth-of-type(10) {
+    opacity: 1;
+    transition: 0s .4s;
+
+}
+/*"love?"*/
+.p21.on span:nth-of-type(11) {
+    opacity: 1;
+    transition: 0s .4s;
+
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+/*"Interlinked"*/
+.p22.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+}
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+/*"Interlinked"*/
+.p23.on span:first-of-type {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:.2s;
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+/*"Did"*/
+.p24.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+}
+/*"they"*/
+.p24.on span:nth-of-type(2) {
+    opacity: 1;
+    transition: 0s .4s;
+
+}
+/*"teach"*/
+.p24.on span:nth-of-type(3) {
+    opacity: 1;
+    transition: 0s .4s;
+
+}
+/*"you"*/
+.p24.on span:nth-of-type(4) {
+    opacity: 1;
+    transition: 0s .4s;
+
+}
+/*"how"*/
+.p24.on span:nth-of-type(5) {
+    opacity: 1;
+    transition: 0s .4s;
+
+}
+/*"to"*/
+.p24.on span:nth-of-type(6) {
+    opacity: 1;
+    transition: 0s .4s;
+
+}
+/*"feel,"*/
+.p24.on span:nth-of-type(7) {
+    opacity: 1;
+    transition: 0s .4s;
+
+}
+/*"finger"*/
+.p24.on span:nth-of-type(8) {
+    opacity: 1;
+    transition: 0s .4s;
+
+}
+/*"to"*/
+.p24.on span:nth-of-type(9) {
+    opacity: 1;
+    transition: 0s .4s;
+
+}
+/*"finger"*/
+.p24.on span:nth-of-type(10) {
+    opacity: 1;
+    transition: 0s .4s;
+
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+/*"Interlinked"*/
+.p25.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+}
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+/*"Interlinked"*/
+.p26.on span:first-of-type {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:.2s;
+
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+/*"Do"*/
+.p27.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+}
+/*"you"*/
+.p27.on span:nth-of-type(2) {
+    opacity: 1;
+    transition: 0s .4s;
+
+}
+/*"long"*/
+.p27.on span:nth-of-type(3) {
+    opacity: 1;
+    transition: 0s .4s;
+
+}
+/*"for"*/
+.p27.on span:nth-of-type(4) {
+    opacity: 1;
+    transition: 0s .4s;
+
+}
+/*"having"*/
+.p27.on span:nth-of-type(5) {
+    opacity: 1;
+    transition: 0s .4s;
+
+}
+/*"your"*/
+.p27.on span:nth-of-type(6) {
+    opacity: 1;
+    transition: 0s .4s;
+
+}
+/*"hearts"*/
+.p27.on span:nth-of-type(7) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+/*"interlinked?"*/
+.p27.on span:nth-of-type(8) {
+    opacity: 1;
+    transition: 0s .4s;
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+/*"Interlinked"*/
+.p28.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+
+}
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+/*"Interlinked"*/
+.p29.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+/*"Do"*/
+.p30.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+
+}
+/*"you"*/
+.p30.on span:nth-of-type(2) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+/*"dream"*/
+.p30.on span:nth-of-type(3) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+/*"about"*/
+.p30.on span:nth-of-type(4) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+/*"being"*/
+.p30.on span:nth-of-type(5) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+/*"interlinked?"*/
+.p30.on span:nth-of-type(6) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+/*"Interlinked."*/
+.p31.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+/*"What's"*/
+.p32.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+
+}
+/*"it"*/
+.p32.on span:nth-of-type(2) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+/*"like"*/
+.p32.on span:nth-of-type(3) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+/*"to"*/
+.p32.on span:nth-of-type(4) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+/*"hold"*/
+.p32.on span:nth-of-type(5) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+/*"your"*/
+.p32.on span:nth-of-type(6) {
+    opacity: 1;
+    transition: 0s .4s;
+
+}
+/*"child"*/
+.p32.on span:nth-of-type(7) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+/*"in"*/
+.p32.on span:nth-of-type(8) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+/*"your"*/
+.p32.on span:nth-of-type(9) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+/*"arms?"*/
+.p32.on span:nth-of-type(10) {
+    opacity: 1;
+    transition: 0s .4s;
+
+
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+/*"Interlinked."*/
+.p33.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+
+}
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+/*"Interlinked."*/
+.p34.on span:first-of-type {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:.2s;
+
+
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+/*"Do"*/
+.p35.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+
+}
+/*"you"*/
+.p35.on span:nth-of-type(2) {
+    opacity: 1;
+    transition: 0s .4s;
+    margin-right: -.25em;
+
+
+}
+/*"feel"*/
+.p35.on span:nth-of-type(3) {
+    opacity: 1;
+    transition: 0s .4s;
+    margin-right: -.25em;
+
+
+}
+/*"that"*/
+.p35.on span:nth-of-type(4) {
+    opacity: 1;
+    transition: 0s .4s;
+    margin-right: -.25em;
+
+
+}
+/*"there's"*/
+.p35.on span:nth-of-type(5) {
+    opacity: 1;
+    transition: 0s .4s;
+    margin-right: -.25em;
+
+
+}
+/*"a"*/
+.p35.on span:nth-of-type(6) {
+    opacity: 1;
+    transition: 0s .4s;
+    margin-right: -.25em;
+
+
+}
+/*"part"*/
+.p35.on span:nth-of-type(7) {
+    opacity: 1;
+    transition: 0s .4s;
+    margin-right: -.25em;
+
+
+}
+/*"of"*/
+.p35.on span:nth-of-type(8) {
+    opacity: 1;
+    transition: 0s .4s;
+    margin-right: -.25em;
+
+
+}
+/*"you"*/
+.p35.on span:nth-of-type(9) {
+    opacity: 1;
+    transition: 0s .4s;
+    margin-right: -.25em;
+
+
+}
+/*"that's"*/
+.p35.on span:nth-of-type(10) {
+    opacity: 1;
+    transition: 0s .4s;
+    margin-right: -.25em;
+
+
+}
+/*"missing?"*/
+.p35.on span:nth-of-type(11) {
+    opacity: 1;
+    transition: 0s .4s;
+    margin-right: -.25em;
+
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+/*"Interlinked."*/
+.p36.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+}
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+/*"Interlinked."*/
+.p37.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+.p38 span {
+    opacity: 0;
+}
+
+
+/*"Within"*/
+.p38.on span:first-of-type {
+    opacity: 1;
+    transition-delay:.4s;
+
+}
+
+/*"cells"*/
+.p38.on span:nth-of-type(2) {
+    opacity: 1;
+    transition-delay:.5s;
+
+
+}
+
+/*"interlinked."*/
+.p38.on span:nth-of-type(3) {
+    opacity: 1;
+    transition-delay:.7s;
+
+}
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+/*"Within"*/
+.p39.on span:first-of-type {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:.2s;
+
+
+}
+/*"cells"*/
+.p39.on span:nth-of-type(2) {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:.4s;
+
+
+}
+/*"interlinked."*/
+.p39.on span:nth-of-type(3) {
+    opacity: 1;
+    font-weight:600;
+    transition-delay:1s;
+
+
+}
+
+/* **********************************************
+VOICE 1:
+********************************************** */
+
+.p40 span {
+    opacity: 0;
+}
+
+/*"Why"*/
+.p40.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+
+}
+/*"don't"*/
+.p40.on span:nth-of-type(2) {
+    opacity: 1;
+    transition-delay:.4s;
+
+
+}
+/*"you"*/
+.p40.on span:nth-of-type(3) {
+    opacity: 1;
+    transition-delay:.5s;;
+
+
+}
+/*"say"*/
+.p40.on span:nth-of-type(4) {
+    opacity: 1;
+    transition-delay:.7s;
+
+
+}
+/*"that"*/
+.p40.on span:nth-of-type(5) {
+    opacity: 1;
+    transition-delay:1.1s;
+
+
+}
+/*"three"*/
+.p40.on span:nth-of-type(6) {
+    opacity: 1;
+    transition-delay:1.4s;
+
+
+}
+/*"times:"*/
+.p40.on span:nth-of-type(7) {
+    opacity: 1;
+    transition-delay:1.7s;
+
+
+}
+/*""within"*/
+.p40.on span:nth-of-type(8) {
+    opacity: 1;
+    transition-delay:2.2s;
+
+
+}
+/*"cells"*/
+.p40.on span:nth-of-type(9) {
+    opacity: 1;
+    transition-delay:2.4s;
+
+
+}
+/*"interlinked"*/
+.p40.on span:nth-of-type(10) {
+    opacity: 1;
+    transition-delay:2.8s;
+
+
+}
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+
+.p41 span{
+    font-size: 22px;
+}
+
+/*"Whitin"*/
+.p41.on span:first-of-type {
+
+}
+
+/*"cells"*/
+.p41.on span:nth-of-type(2) {
+
+}
+
+/*"interlinked"*/
+.p41.on span:nth-of-type(3) {
+}
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+.p42 span{
+    font-size: 25px;
+}
+
+/*"Whitin"*/
+.p42.on span:first-of-type {
+}
+/*"cells"*/
+.p42.on span:nth-of-type(2) {
+}
+/*"interlinked"*/
+.p42.on span:nth-of-type(3) {
+}
+
+/* **********************************************
+VOICE 2:
+********************************************** */
+
+.p43 span{
+    font-size: 30px;
+    font-family: "Brenner Mono Bold";
+}
+
+/*"Whitin"*/
+.p43.on span:first-of-type {
+}
+/*"cells"*/
+.p43.on span:nth-of-type(2) {
+}
+/*"interlinked"*/
+.p43.on span:nth-of-type(3) {
+}
+
+/* **********************************************
+VOICE 4:
+********************************************** */
+
+/*"We're"*/
+.p44.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+
+
+}
+/*"done."*/
+.p44.on span:nth-of-type(2) {
+    opacity: 1;
+    transition: 0s .4s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
