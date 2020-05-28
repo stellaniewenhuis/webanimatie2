@@ -886,27 +886,27 @@ VOICE 2:
 .p78.on span:nth-of-type(2) {
     opacity: 1;
     transition: 0s .4s;
-font-size:15px;
+
 
 }
 /*"white"*/
 .p78.on span:nth-of-type(3) {
     opacity: 1;
     transition: 0s .4s;
-font-size:15px;
+
 }
 /*"fountain"*/
 .p78.on span:nth-of-type(3) {
     opacity: 1;
     transition: 0s .4s;
-font-size:15px;
+
 
 }
 /*"played"*/
 .p78.on span:nth-of-type(3) {
     opacity: 1;
     transition: 0s .4s;
-    font-size:15px;
+
 
 }
 
