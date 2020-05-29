@@ -74,14 +74,14 @@ Het was lastig om hier een foto van te maken. Maar er is veel variatie in hoe de
 
 <img width="1102" alt="Schermafbeelding 2020-05-29 om 07 43 02" src="https://user-images.githubusercontent.com/45544342/83225663-92dc0500-a180-11ea-846b-50bec370cb3f.png">
 
-Na de feedback van Marie, heb ik naast de animaties in de toegevoegde tekts, tegelijkertijd een animatie (denk aan shaken van het scherm, bewegen van het scherm etc.) gezet op de video-placeholder. Zo is de beschrijving echt gelinkt aan de omschrijving, en geeft de kleursverandering en het ritme en van de beweging van de video-placeholder ook meer over het ritme van het geluid en de trillingen. Marie had vertelt dat ze trillingen wel kan horen. 
+Na de feedback van Marie, heb ik naast de animaties in de toegevoegde tekts, tegelijkertijd een animatie (denk aan shaken van het scherm, bewegen van het scherm etc.) gezet op de video-placeholder. Zo is de beschrijving echt gelinkt aan de omschrijving, en geeft de kleursverandering (rood blauw) en het ritme en van de beweging van de video-placeholder ook meer over het ritme van het geluid en de trillingen. Marie had vertelt dat ze trillingen wel kan horen. 
 
 <img width="1680" alt="Schermafbeelding 2020-05-29 om 07 49 46" src="https://user-images.githubusercontent.com/45544342/83225880-04b44e80-a181-11ea-8505-1ff7d8024300.png">
 
 
 <img width="1680" alt="Schermafbeelding 2020-05-29 om 07 54 02" src="https://user-images.githubusercontent.com/45544342/83226202-b5bae900-a181-11ea-8e91-dab56d810bf7.png">
 
-Het scherm wordt langzaam gevuld met grijze waas. Dit grote effect heb ik bedacht voor het laatste fragment, omdat je de muziek continue best hard hoort en deze tot het einde doorgaat. De spanning houdt aan. Ik wilde een groot verschil maken met het eerste fragment. Aan het einde wordt het scherm helemaal rood gevuld. Ik heb telkens bij de geluidsanimaties gebruik gemaakt van een wisseling van blauw naar rood. Dat heb ik hier ook gedaan alleen dan veel extremer. 
+Het scherm wordt langzaam gevuld met grijze waas. Dit grote effect heb ik bedacht voor het tweede fragment, omdat je de muziek continue best hard hoort en deze tot het einde doorgaat. De spanning houdt aan. Ik wilde een verschil maken met het eerste fragment. Aan het einde wordt het scherm helemaal rood gevuld. Het eerste fragment is nog best ingehouden maar bij de tweede ga ik meer los met de visualisatie. Ik heb telkens bij de geluidsanimaties gebruik gemaakt van een wisseling van blauw naar rood. Dat heb ik hier ook gedaan alleen dan veel extremer. 
 
 Aan het einde heb ik ook nog een blink gemaakt, waarbij het scherm net even wegvalt en het geluid even stopt, voor de conclusie van de test: 'Your not even close to baseline'.
 
@@ -101,7 +101,7 @@ Verder heb ik telkens haar feedback zo goed mogelijk geprobeerd te bewerken. Het
 
 
 ## 4. Add nonsense
-Sommige dingen die ik heb toegepast zijn best wel ongebruikelijk en overdreven. Zoals de bewegingen van de video-placeholder bv. Maar dat geeft juist helemaal niet omdat er voor Marie een heel deel van de ervaring mist, namelijk geluid. 
+Sommige dingen die ik heb toegepast zijn best wel ongebruikelijk en overdreven. Zoals de bewegingen van de video-placeholder bv. en dat aan het einde het scherm helemaal rood wordt. Maar dat geeft juist helemaal niet omdat er voor Marie een heel deel van de ervaring mist, namelijk geluid. 
 Je kunt dat als het ware compenseren door meer met beweging en visualisaties te doen, zodat Marie een betere (en niet zo'n saaie) ervaring heeft. Nou moet ik wel zeggen dat ik het niet too much heb gedaan omdat Marie niet BLIND is. Ook vind ik dat je niet teveel met het beeld in de film moet doen omdat er ook door de regisseur is nagedacht over hoe dingen worden laten zien. Het versterken van wat er te zien is/wat er gebeurt en dat gelijktrekken aan de visualisaties van het geluid, zijn naar mijn mening het belangrijkst. Met behulp van de feedback van Marie heb ik het zo veel mogelijk naar hand willen zetten. Wat ik zelf vooral belanrgijk vond en haar graag wilde meegeven van de film, waren de climaxen en het verschil tussen fragment 1 en 2. Naast het toevoegen van steeds losse elementen en wat overdreven dingen, heb ik geprobeerd die verhaallijnen niet teveel te onderbreken.  
 
 
