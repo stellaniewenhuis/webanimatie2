@@ -147,7 +147,7 @@ animation: achtergrond4 4s ease-in-out;
 /*styling geluid 7*/
 .sound10 #geluid7 {
     display: block;
-    animation: blinking 5s forwards;
+    animation: blinking 6s forwards;
 }
 
 @keyframes blinking {
